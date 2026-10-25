@@ -1,0 +1,17 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Build and tool output
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
